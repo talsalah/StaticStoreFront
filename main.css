@@ -2,7 +2,7 @@
 body {
     font-size: 67.5%;
     font-family: Tahoma, Geneva, sans-serif;
-    background: #39150C url(img/paper_1332008.jpg) no-repeat fixed top center;
+    background: orange; /*url(img/paper_1.jpg) center 0px;*/
     padding: 0;
     margin: 0;
     -webkit-background-size: 100% 100%;
@@ -15,13 +15,13 @@ body {
 
 /*Header*/
 h1 {
-    color: #2BA967;
+    color:blue ;
     font-size: 2.0em;
     margin: 0.5em 0 0.5em 0;
     padding: 0;
 }
 h2 {
-    color: #745b2f;
+    color: #0bc005;
     font-size: 1.7em;
     padding: 0px;
     margin: 0.5em 0 0.35em 0;
@@ -29,7 +29,7 @@ h2 {
 p {
     font-size: 1.2em;
     line-height: 1.4em;
-    color: #555;
+    color:rebeccapurple;
     padding: 0px;
     margin: 0px 0.5em 0.75em 0px;
 }
@@ -44,10 +44,10 @@ ol li {
     padding: 0 0 0.2em;
 }
 a, a:visited {
-    color: #C64322;
+    color: #c51098;
 }
 a:hover {
-    color: #333;
+    color: rgb(107, 133, 14);
 }
 hr {
     padding: 0;
@@ -66,14 +66,19 @@ hr {
     float: right;
 }
 
+div.clear { 
+    clear:both;
+    font-size: 1%;
+}
+
 header {
     padding: 2.5em 0 0.5em;
     margin: 0 0 2.0em;
-    background: #39150C url(img/bg_cheeses_lg_2600w.jpg) center 0px;
+    background: #39150C url(img/toys.jpg) center 0px;
 }
 header h1 {
     font-family: "Times New Roman", Times, serif;
-    color: #745b2f;
+    color: #3d0cc5;
     font-size: 7.5em;
     letter-spacing: -0.025em;
     margin: 0;    
@@ -82,7 +87,7 @@ header h1 {
 header h2 {
     font-weight: 300;
     font-size: 3.8em;
-    color: #2BA967;
+    color: #a92b98;
     margin: -0.4em 0 0 1.0em;
     text-transform: uppercase;
     letter-spacing: 0.05em;
@@ -93,7 +98,7 @@ header h2 {
 /*Nav Bars*/
 
 nav {
-    color: #000;
+    color: rgba(7, 26, 194, 0.562);
     font-size: 1.7em;
     letter-spacing: 0.04em;
     padding: 1.0em 1.0em 0.5em;
@@ -110,11 +115,11 @@ nav li {
 }
 nav li a, nav li a:visited {
     text-decoration: none;
-    color: #C64322;
+    color: #1333e6;
     padding: 0.3em 0.6em;
 }
 nav li a:hover {
-    color: #C64322;
+    color: #c6229d;
     background-color: rgba(252,251,243,0.75);
 }
 
@@ -167,7 +172,7 @@ section#sidebar {
     background-color: #fff;
     margin: 1.5em 0 3.0em 1.5em;
     padding: 1.7em 0.5em 2.0em 1.7em;
-    border-left: #2BA967 solid 5px;
+    border-left: #e47f0c solid 5px;
 
    }
 
@@ -196,8 +201,11 @@ section #main {
    }
 /*Footer*/
 footer {
-    background-color: #40362f;
-    height: 25px;
+    
+    
+                     
+    background-color: #a3246e;
+    height: 10px;
     font-size: 1.2em;
     color: #fff;
     text-align: center;
@@ -212,7 +220,7 @@ footer ul#menuFooter {
 footer ul li {
     display: inline-block;
     padding: 0 0.7em 0 0;
-    margin: 0;
+    margin: 100;
 }
 footer ul li::before {
     content: "| ";
